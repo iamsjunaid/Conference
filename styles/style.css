@@ -23,7 +23,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "lato", sans-serif;
-    color: black;
+    color: #fff;
 }
 
 .greet,
@@ -61,13 +61,65 @@ body {
 .venue {
     font-size: 1.25em;
 }
+
 .date {
     font-weight: 900;
     font-size: 1.8em;
     color: #272a31;
 }
 
+.program-contents-container {
+    background-image: url('../images/bg-images/pattern_bg.png');
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    color: #fff;
+}
 
+.program-content>h2 {
+    padding: 1.25em 0;
+    color: white;
+}
+
+.underline {
+    height: 1px;
+    background-color: #ec5242;
+    width: 2em;
+    margin-top: 0.5em;
+}
+
+.program-card {
+    margin: 2rem;
+}
+
+.program-card>img {
+    width: 2.5rem;
+}
+
+.program-card h3 {
+    font-size: 1em;
+    font-weight: 700;
+    width: 8ch;
+    color: var(--red);
+}
+
+.program-details-link {
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.join-btn {
+    background: #ec5242;
+    margin: 3em;
+    border: none;
+    padding: 1.25em 2em;
+    font-size: 1em;
+    color: white;
+  }
 
 @media screen and (max-width: 768px) {
 
@@ -83,7 +135,7 @@ body {
 
     header {
         top: 0%;
-        position: fixed;
+        position: absolute;
         z-index: 100;
     }
 
@@ -102,7 +154,7 @@ body {
         /* background: (rgb(0,0,255,0.45),rgb(0,0,255,0.45),url('../images/pexels-tara-winstead-8386433.jpg')); */
         background-position: center;
         background-size: cover;
-        height: 100%;
+        /* height: 100%; */
         /* opacity: 0.7; */
         position: absolute;
     }
@@ -123,5 +175,22 @@ body {
 
     .bg-image-container {
         display: none;
+    }
+
+    .program-card {
+        flex-direction: row;
+        align-items: center;
+        margin: .5rem 0rem;
+        align-items: center;
+        padding: 0.7em;
+        color: #d3d3d3;
+        background-color: rgba(211, 211, 211, 0.1);
+        margin-bottom: 0.5em;
+        gap: 1em;
+    }
+
+    .card-desc {
+        font-size: 0.8em;
+        flex: 2;
     }
 }
