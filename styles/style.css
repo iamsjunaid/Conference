@@ -119,7 +119,21 @@ body {
     padding: 1.25em 2em;
     font-size: 1em;
     color: white;
-  }
+}
+
+.speaker-qualification {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: var(--red);
+}
+
+.speaker-underline {
+    background-color: #d3d3d3;
+    margin: 1em 0;
+    width: 1.5em;
+    height: 1px;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -151,11 +165,8 @@ body {
     }
 
     .main-section {
-        /* background: (rgb(0,0,255,0.45),rgb(0,0,255,0.45),url('../images/pexels-tara-winstead-8386433.jpg')); */
         background-position: center;
         background-size: cover;
-        /* height: 100%; */
-        /* opacity: 0.7; */
         position: absolute;
     }
 
@@ -193,4 +204,26 @@ body {
         font-size: 0.8em;
         flex: 2;
     }
+
+    .speakers-section {
+        position: absolute;
+        top: 228%;
+    }
+
+    .speaker-desc {
+        font-size: .7em;
+    }
+
+    .speaker-card {
+        gap: 1rem;
+    }
+
+    .sponsors-section {
+        position: absolute;
+        top: 420%;
+    }
+
+    /*.sponsors-logo img {
+        width: 6em;
+      } */
 }
