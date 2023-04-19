@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+.subtitle {
+    background-color: #fff !important;
+}
+
 @media screen and (max-width:768px) {
     
 }
