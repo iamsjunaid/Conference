@@ -76,13 +76,13 @@ footer {
     }
 
     footer {
-        top: 280% !important;
+        top: 354% !important;
     }
 }
 
 @media screen and (min-width:768px) {
     #section-2 {
-        top: 150% !important;
+        top: 180% !important;
         /* flex-direction: column; */
     }
 
