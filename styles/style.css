@@ -82,6 +82,7 @@ body {
 
 .program-card {
     margin: 2rem;
+    background-color: rgba(211, 211, 211, 0.1);
 }
 
 .program-card>img {
@@ -256,7 +257,6 @@ footer {
         align-items: center;
         padding: 0.7em;
         color: #d3d3d3;
-        background-color: rgba(211, 211, 211, 0.1);
         margin-bottom: 0.5em;
         gap: 1em;
     }
@@ -314,7 +314,7 @@ footer {
         background-color: var(--black);
         color: #fff;
     }
-    
+
     .top-links-container {
         gap: 2rem;
     }
@@ -336,5 +336,52 @@ footer {
 
     .close {
         display: none;
+    }
+
+    .mobile-bg-img-container img {
+        display: none;
+    }
+
+    .sponsors-section {
+        position: absolute;
+        top: 755%;
+    }
+
+    .speakers-section {
+        position: absolute;
+        top: 316%;
+        width: 100%;
+    }
+
+    .program-contents-container {
+        position: absolute;
+        top: 128%;
+        width: 100%;
+    }
+
+    .program-details {
+        display: flex;
+        justify-content: center;
+    }
+
+    .program-card {
+        flex-direction: column;
+        text-align: center;
+        margin: 0.2em;
+        align-items: center;
+        gap: 1rem;
+        width: 10%;
+        padding: 1rem 0;
+    }
+
+    .speaker-card {
+        width: 50%;
+    }
+
+    .speaker-details {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        margin: 2em auto;
     }
 }
