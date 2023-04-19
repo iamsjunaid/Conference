@@ -17,10 +17,25 @@ body {
     background-color: #fff !important;
 }
 
-@media screen and (max-width:768px) {
-    
+.bottom-para {
+    font-size: 0.8em;
+    margin-bottom: 2em;
 }
 
-@media screen and (min-width:768px) {
-    
+.bottom-para a {
+    text-decoration: none;
+    color: #fff;
 }
+
+.main-section {
+    position: absolute;
+    top: 6.9rem;
+}
+
+@media screen and (max-width:768px) {
+    .mobile-bg-img-container img {
+        top: -7rem !important;
+    }
+}
+
+@media screen and (min-width:768px) {}
