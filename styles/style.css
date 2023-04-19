@@ -367,19 +367,19 @@ footer {
 
     .sponsors-section {
         position: absolute;
-        top: 670%;
+        top: 395%;
         padding: 2em 0;
     }
 
     .speakers-section {
         position: absolute;
-        top: 450%;
+        top: 240%;
         width: 100%;
     }
 
     .program-contents-container {
         position: absolute;
-        top: 231%;
+        top: 112%;
         width: 100%;
     }
 
@@ -422,7 +422,7 @@ footer {
 
     .sponsors-section {
         width: 100%;
-        top: 670%;
+        top: 395%;
     }
 
     .sponsors-section h2 {
@@ -441,6 +441,6 @@ footer {
     footer {
         position: absolute;
         margin: 0;
-        top: 718%;
+        top: 425%;
     }
 }
