@@ -384,4 +384,9 @@ footer {
         width: 80vw;
         margin: 2em auto;
     }
+
+    .desktop-bg-img-container img {
+        position: relative;
+        width: 100%;
+    }
 }
