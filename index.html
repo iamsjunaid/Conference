@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/4a30d59e86.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/contact.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
             crossorigin="anonymous" />
@@ -18,8 +19,8 @@
 
 <body>
     <header>
-        <div class="top-header justify-content-end">
-            <div class="d-flex align-items-center">
+        <div class="top-header">
+            <div class="top-links-container d-flex align-items-center">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <p class="m-0">English</p>
@@ -35,7 +36,7 @@
                 <ul href="" class="bar-menu p-0">
                     <li><i class="fa-solid fa-bars hamburger"></i></li>
                 </ul class="">
-                <ul class="main-menu pop-up hidden m-0">
+                <ul class="main-menu pop-up m-0">
                     <li class="navitem">
                         <i class="fa-solid fa-xmark close"></i>
                     </li>
@@ -43,7 +44,7 @@
                         <a class="navlink" href="./about.html">About</a>
                     </li>
                     <li class="navitem">
-                        <a class="navlink contact-us">Contact Us</a>
+                        <a class="navlink contact-us" href="#contact-section">Contact Us</a>
                     </li>
                     <li class="navitem">
                         <a class="navlink" href="#">Time Left</a>
@@ -133,7 +134,7 @@
           <div class="speaker-details"></div>
     </section>
     <section class="sponsors-section">
-        <h2 class="d-flex justify-content-center">
+        <h2 class="d-flex justify-content-center flex-column">
           Partners <span class="underline"></span>
         </h2>
         <div class="sponsors-logo">
@@ -159,6 +160,19 @@
           </div>
         </div>
       </section>
+      <section class="contact-section" id="contact-section"></section>
+      <footer>
+        <div>
+          <a class="footer-logo" href="#">
+            <img src="https://isete.org/images/logo.png" alt="ISETE Logo" />
+          </a>
+        </div>
+        <div>
+          <p class="m-0">&copy; All RIGHTS RESERVED</p>
+        </div>
+      </footer>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/menu.js"></script> 
+    <script src="./scripts/contact.js"></script> 
 </body>
 </html>
