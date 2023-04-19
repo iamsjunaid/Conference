@@ -301,6 +301,10 @@ footer {
     .pop-up {
         display: none;
     }
+
+    .desktop-bg-img-container {
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -308,11 +312,27 @@ footer {
         display: none;
     }
 
+    header {
+        z-index: 1000;
+        position: absolute;
+        top: 0rem;
+        width: 100%;
+    }
+
+    .navbar-style {
+        background-color: #fff;
+        box-shadow: 0 5px 15px -10px #272a31;
+    }
+
     .top-header {
         display: flex;
         justify-content: flex-end;
         background-color: var(--black);
         color: #fff;
+    }
+
+    .logo img {
+        width: 14rem;
     }
 
     .top-links-container {
@@ -329,6 +349,10 @@ footer {
         /* list-style: none; */
     }
 
+    .title {
+        font-size: 3.2em;
+    }
+
     .navitem a {
         text-decoration: none;
         color: var(--black);
@@ -338,24 +362,25 @@ footer {
         display: none;
     }
 
-    .mobile-bg-img-container img {
+    .mobile-bg-img-container {
         display: none;
     }
 
     .sponsors-section {
         position: absolute;
-        top: 755%;
+        top: 630%;
+        padding: 2em 0;
     }
 
     .speakers-section {
         position: absolute;
-        top: 316%;
+        top: 240%;
         width: 100%;
     }
 
     .program-contents-container {
         position: absolute;
-        top: 128%;
+        top: 117%;
         width: 100%;
     }
 
@@ -388,5 +413,35 @@ footer {
     .desktop-bg-img-container img {
         position: relative;
         width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0rem;
+        padding: 8em;
+    }
+
+    .sponsors-section {
+        width: 100%;
+        top: 400%;
+    }
+
+    .sponsors-section h2 {
+        align-items: center;
+    }
+
+    .sponsors-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sponsors-logo img {
+        width: 6em;
+    }
+
+    footer {
+        position: absolute;
+        margin: 0;
+        top: 430%;
     }
 }
