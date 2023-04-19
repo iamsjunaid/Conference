@@ -3,11 +3,9 @@ const popup = document.querySelector('.pop-up');
 const close = document.querySelector('.close');
 
 barMenu.addEventListener('click', () => {
-    popup.classList.toggle('toggler');
-    console.log('clicke')
-})
+  popup.classList.toggle('toggler');
+});
 
 close.addEventListener('click', () => {
-    popup.classList.remove('toggler');
-})
-
+  popup.classList.remove('toggler');
+});

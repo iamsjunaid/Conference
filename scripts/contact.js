@@ -1,7 +1,6 @@
 const contactForm = document.querySelector('.contact-section');
 const contactUs = document.querySelector('.contact-us');
-// const popup = document.querySelector('.pop-up');
-console.log(popup)
+
 const parser = new DOMParser();
 
 const contactCard = `
@@ -62,19 +61,14 @@ const contactCard = `
 
 const contactElement = parser.parseFromString(contactCard, 'text/html').body.firstChild;
 
-console.log(contactElement);
-
 const closeBtn = contactElement.querySelector('.contact-close');
 
 contactUs.addEventListener('click', () => {
-    contactElement.classList.toggle('contact-popup-hidden');
-    popup.classList.toggle('toggler');
-    // console.log("contact us cli/cked")
+  contactElement.classList.toggle('contact-popup-hidden');
 });
 
 closeBtn.addEventListener('click', () => {
-    contactElement.classList.toggle('contact-popup-hidden');
-    popup.classList.remove('toggler');
+  contactElement.classList.toggle('contact-popup-hidden');
 });
 
 contactForm.appendChild(contactElement);
