@@ -67,7 +67,7 @@ body {
   color: #fff;
 }
 
-.program-content>h2 {
+.program-content > h2 {
   padding: 1.25em 0;
   color: white;
 }
@@ -84,7 +84,7 @@ body {
   background-color: rgba(211, 211, 211, 0.1);
 }
 
-.program-card>img {
+.program-card > img {
   width: 2.5rem;
 }
 
@@ -149,7 +149,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
   .top-header,
   .logo {
     display: none !important;
