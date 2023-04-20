@@ -152,6 +152,10 @@ footer {
   font-size: 0.7em;
 }
 
+.speaker-card {
+  gap: 1rem;
+}
+
 @media screen and (max-width: 768px) {
   .top-header,
   .logo {
@@ -275,10 +279,6 @@ footer {
     font-size: 0.7em;
   }
 
-  .speaker-card {
-    gap: 1rem;
-  }
-
   .sponsors-section {
     position: absolute;
     top: 222rem;
@@ -322,7 +322,7 @@ footer {
   .navbar-style {
     background-color: #fff;
     box-shadow: 0 5px 15px -10px #272a31;
-    padding: 0 9rem;
+    padding: 0 4rem;
   }
 
   .top-header {
@@ -330,7 +330,7 @@ footer {
     justify-content: flex-end;
     background-color: var(--black);
     color: #fff;
-    padding-right: 9rem;
+    padding-right: 4rem;
   }
 
   #isete-brand-name {
