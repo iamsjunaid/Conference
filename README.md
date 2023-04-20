@@ -24,7 +24,7 @@
 
 # 📖 ISETE Conference <a name="about-project"></a>
 
-**ISETE Conference** is a website that tells about an event that is going to happen in India. It is a tech event and the topics are AI, Big Data and Machine Learning.
+**ISETE Conference** is a website that tells about an event that is going to happen in India. It is a tech event and the topics are AI, Big Data and Machine Learning. Check out <a href="https://www.loom.com/share/3dc1ce2d7914410d8887219f0534e1f6">this loom recording.</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -188,7 +188,10 @@ If you like this project give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for helping me complete this project.
+ - I would like to thank Microverse for helping me complete this project.
+
+ - Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance.</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
