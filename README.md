@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/f6f7f9969fa344c5ad90b58838e6d1a6)
+- [Live Demo Link](https://iamsjunaid.github.io/Conference/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
