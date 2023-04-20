@@ -38,7 +38,13 @@ window.onload = () => {
     },
   ];
 
+  const heading = `<h2 class="d-flex flex-column justify-content-center align-items-center mb-5">
+  Featured speakers <span class="underline"></span>
+</h2>
+<div class="speaker-details"></div>`;
+
   const speakerCardString = Speakers.map((speaker) => `
+  
     <div class="speaker-card d-flex mb-5 align-items-center p-1">
       <div class="speaker-img">
         <img 
@@ -60,6 +66,12 @@ window.onload = () => {
   `);
 
   const parser = new DOMParser();
+
+  const speakerDetailsString = parser.parseFromString(heading, 'text/html').body;
+
+  const speakerSection = document.querySelector('.speakers-section');
+
+  speakerSection.append(speakerDetailsString);
 
   speakerCardString.forEach((cardString) => {
     const speakerElement = parser.parseFromString(cardString, 'text/html').body.firstChild;

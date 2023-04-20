@@ -148,6 +148,10 @@ footer {
   width: 14rem;
 }
 
+.speaker-desc {
+  font-size: 0.7em;
+}
+
 @media screen and (max-width: 768px) {
   .top-header,
   .logo {
@@ -318,6 +322,7 @@ footer {
   .navbar-style {
     background-color: #fff;
     box-shadow: 0 5px 15px -10px #272a31;
+    padding: 0 9rem;
   }
 
   .top-header {
@@ -325,6 +330,15 @@ footer {
     justify-content: flex-end;
     background-color: var(--black);
     color: #fff;
+    padding-right: 9rem;
+  }
+
+  #isete-brand-name {
+    border: 4px solid var(--red);
+    padding: 10px 4rem;
+    color: var(--red);
+    font-size: 18px;
+    font-weight: 501;
   }
 
   .logo img {
